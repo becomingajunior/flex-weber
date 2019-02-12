@@ -118,7 +118,7 @@ body {
 
 .div-flex-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -178,6 +178,12 @@ header h1 {
 
 .div-3 {
   border-bottom: 1px solid #fff;
+}
+
+
+.div-3 a {
+  color: #fff;
+  text-decoration-color: #ba55d3;
 }
 
 figure {
