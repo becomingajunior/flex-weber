@@ -130,13 +130,11 @@ header {
   justify-content: center;
   width: 100%;
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 100%;
-  margin-bottom: 10px;
+header h1 {
+  font-family: "Patua One", cursive;
+  font-size: 2em;
+  color: #fff;
+  margin: 10px 0 15px 0;
 }
 
 .main {
@@ -144,13 +142,6 @@ footer {
   justify-content: center;
   width: 100%;
   border-bottom: 1px solid #fff;
-}
-
-header h1 {
-  font-family: "Patua One", cursive;
-  font-size: 2em;
-  color: #fff;
-  margin: 10px 0 15px 0;
 }
 
 .main p {
@@ -176,6 +167,10 @@ header h1 {
 .div-1 {
   display: flex;
   flex-flow: row wrap;
+}
+
+.div-1 p {
+  margin-top: 0;
 }
 
 .div-2 {
@@ -207,6 +202,13 @@ img {
   display: flex;
   align-content: center;
   width: 70%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 footer p {
@@ -328,14 +330,13 @@ footer i {
 
 /* --- Tablets larger than 768 px wide ---*/
 
-@media all (min-width: 768px and max-width: 1099px) {
+@media all min-width: 768px and max-width: 1099px {
   img {
     display: flex;
     align-content: center;
     width: 30%;
   }
 }
-
 /* --- Monitors larger than 1100px wide) ---*/
 
 @media all and (min-width: 1100px) {
